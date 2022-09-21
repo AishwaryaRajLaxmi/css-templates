@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.list-group {
+  list-style: none;
+  margin: 90px;
+}
+
+.list-group .list-group-item {
+  border: 1px solid rgb(114, 108, 108);
+  padding: 15px 25px;
+  transition: 0.3s;
+  cursor: pointer;
+  color: rgb(72, 66, 66);
+}
+
+.list-group .list-group-item:first-child,
+:last-child {
+  border-radius: 2px !important;
+}
+.list-group-item li:first-child {
+  background-color: white;
+  /* color: red, i !important; */
+}
+
+.list-group li:nth-child(2) {
+  background-color: rgb(148, 192, 236);
+}
+
+.list-group li:nth-child(2):hover {
+  background-color: rgb(100, 161, 221);
+}
+
+.list-group li:nth-child(3) {
+  background-color: rgb(184, 191, 186);
+}
+
+.list-group li:nth-child(3):hover {
+  background-color: rgb(193, 215, 199);
+}
+
+.list-group li:nth-child(4) {
+  background-color: rgb(130, 190, 130);
+}
+
+.list-group li:nth-child(4):hover {
+  background-color: rgb(91, 189, 91);
+}
+
+.list-group li:nth-child(5) {
+  background-color: rgb(218, 128, 171);
+}
+
+.list-group li:nth-child(5):hover {
+  background-color: rgb(206, 85, 144);
+}
+
+.list-group li:nth-child(6) {
+  background-color: rgb(213, 247, 120);
+}
+
+.list-group li:nth-child(6):hover {
+  background-color: rgb(176, 193, 79);
+}
+
+.list-group li:nth-child(7) {
+  background-color: skyblue;
+  color: blue;
+}
+
+.list-group li:nth-child(7):hover {
+  background-color: rgb(73, 150, 171);
+}
+
+.list-group li:nth-child(8) {
+  background-color: rgb(242, 245, 247);
+}
+
+.list-group li:nth-child(8):hover {
+  background-color: rgb(212, 219, 225);
+}
+
+.list-group li:last-child {
+  background-color: rgb(183, 190, 197);
+}
+
+.list-group li:last-child:hover {
+  background-color: rgb(162, 167, 170);
+}

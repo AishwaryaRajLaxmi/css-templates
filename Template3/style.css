@@ -1,0 +1,125 @@
+:root {
+  --white: #fff;
+  --dark: #2c3e50;
+}
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+}
+
+body {
+  background-color: bisque;
+}
+
+.d-flex {
+  display: flex;
+  gap: 20px;0
+}
+
+.justify-content-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.justify-content-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+    background-color:var(--white);
+    padding:0px 50px;
+    box-shadow:0px 0px 7px 0px black;
+    z-index:2;
+}
+
+.header .nav-bar .logo {
+    text-decoration:none;
+    color:var(--dark);
+    font-size:20px;
+}
+
+.header .nav-bar .logo span{
+    text-decoration:none;
+    color:var(--dark);
+    font-weight: 600;
+    font-weight:700;
+}
+
+.header .nav-bar{
+    height:80px;
+}
+
+.header .nav-bar .nav-list{
+    list-style:none;
+}
+
+.header .nav-bar .nav-list a{
+    text-decoration: none;
+    color:var(--dark);
+ }
+
+ /*jumbotron stle*/
+ .jumbotron{
+    height:400px;
+    background:linear-gradient (0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+    background-color: cover;
+    text-align:center;
+ }
+
+.jumbotron h1 span{
+   font-size:50px;
+   font-weight:100;
+   color:rgb(194, 192, 192);
+}
+
+.services{
+    padding:50px;
+    background-color:var(--white);
+
+}
+
+.services .ser-heading{
+    text-align:center;
+    font-size:40px;
+    margin-bottom: 40px;
+    font-weight:100;
+    color:rgb(123, 120, 120);
+}
+
+.services .ser-heading span{
+    font-weight:700;
+    color:var(--dark);
+}
+
+.services .card .card-img img{
+    height:100px;
+    width:100px;
+    margin: 0 auto;
+    position:relative;
+
+}
+
+.services .card .card-img i{
+    position:absolute;
+    font-size:40px;
+    left:50%;
+    top:50%;
+    transform: translateX(-50%) translateY(-50%);
+  color: var(--white);
+  text-shadow: 2px 2px 10px #000;
+}
+
+.services .card .card-heading{
+    margin:20px 0;
+    color: #4b4c4c;
+}
+
+.services .card .card-pera{
+    margin:20px 0;
+    color:#4b4c4c;
+    text-align:justify;
+}

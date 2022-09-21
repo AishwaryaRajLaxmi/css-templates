@@ -1,0 +1,23 @@
+. {
+  padding: 0;
+  margin: 0;
+}
+
+.row .col-4 .list-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-group a {
+  text-decoration: none;
+  border: 1px solid grey;
+  /* padding: 10px 60px; */
+  margin: 400px;
+  color: grey;
+  border-radius: 1px;
+}
+
+.list-group a:first-child,
+:last-child {
+  border-top: ;
+}

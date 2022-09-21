@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.list-group {
+  list-style: none;
+  margin: 90px;
+  /* display: flex; */
+}
+
+.list-group li {
+  border: 1px solid rgb(194, 189, 189);
+  padding: 20px 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-group li:first-child,
+:last-child {
+  border-radius: 2px;
+}
+
+.list-group .list-group-item .badge {
+  border-radius: 30px;
+  padding: 1px 9px;
+  background-color: blue;
+  color: white;
+}

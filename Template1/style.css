@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  padding: 10;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.root {
+  --primary-color: #008374;
+  --default: black;
+  --secondary-color: rgb(248, 170, 26);
+}
+
+body {
+}
+
+.heading {
+  padding: 0 80px;
+  background-color: #008374;
+}
+
+.heading .nav-bar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.nav-bar .nav-list {
+  /* display: inline-block; */
+  display: flex;
+  gap: 40px;
+  list-style: none;
+}
+
+.nav-bar .nav-list a {
+  text-decoration: none;
+  color: white;
+  transition: 0s;
+}
+
+.nav-bar .nav-list a:hover {
+  border-bottom: 2px solid orange;
+}
+
+.nav-bar .logo {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+.nav-bar .logo span {
+  color: orangered;
+}
+
+.main {
+  display: flex;
+  gap: 30px;
+  overflow: hidden;
+  padding: 80px;
+  width: 100%;
+  background-color: #008374;
+  height: 650px;
+}
+
+.main .blog h1 {
+  text-align: center;
+  color: white;
+}
+
+.main .blog p {
+  text-align: justify;
+  color: rgb(194, 187, 187);
+}
+
+.blog .btn1,
+.btn2 {
+  margin-top: 30px;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+}
+
+.blog .btn1 {
+  border-radius: 50px;
+  background-color: #1cb1a0;
+}
+
+.blog .btn1:hover {
+  background-color: white;
+  color: #1cb1a0;
+}
+
+.blog .btn2 {
+  background-color: #008374;
+  border-radius: 50px;
+}
+
+.blog .btn2:hover {
+  color: #008374;
+  background-color: white;
+}
+
+.blog .image {
+  width: 50%;
+}
+
+.card-body {
+  display: flex;
+  gap: 40px;
+  padding: 0 80px;
+  /* justify-content: space-between; */
+  /* color: yellow; */
+}
+
+.card-body .card {
+  background-color: #008374;
+  padding: 100px;
+  margin-top: -120px;
+  box-shadow: 10px -2px 74px -19px rgba(0, 0, 0, 0.75);
+}
+
+.card-body .card:hover {
+  transform: scale(1.02);
+}
+
+.About-container h2 {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.About {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  width: 100%;
+  padding: 70px;
+  overflow: hidden;
+}
+/* 
+/* .About .h2 {
+  text-align: center;
+} */
+.About .left h3 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.About img {
+  width: 500px;
+  border-radius: 50px;
+  /* transition: 0.3; */
+}
+
+.About img:hover {
+  transform: scale(1.02);
+}
+.About .para-1,
+.para-2 {
+  color: rgb(137, 124, 124);
+  padding: 20px 0;
+  text-align: justify;
+}
+
+/* .About .para-2 {
+  color: rgb(137, 124, 124);
+  padding-top: 30px;
+  text-align: justify;
+} */
+
+.child {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 40px;
+  width: 100%;
+}
+.child .image {
+  width: 100%;
+}
+
+.child .client {
+  width: 100%;
+}
+
+.child .client p {
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
+
+.child .client span {
+  font-weight: 700;
+  font-size: 25px;
+  padding-right: 20px;
+  color: #008374;
+}
+
+.contact {
+  background: url("https://media.geeksforgeeks.org/wp-content/uploads/20210724030339/PercentageNoChange-660x323.png");
+  background-attachment: fixed;
+  border-radius: 50px;
+  padding: 80px;
+  margin: 0 80px;
+  /* background: transparent; */
+}
+
+.contact button {
+  margin-left: 450px;
+  padding: 15px;
+  border-radius: 50px;
+  color: white;
+  background-color: #008374;
+  border-style: none;
+}
+
+.contact button:hover {
+  background-color: #1cb1a0;
+  color: black;
+}
