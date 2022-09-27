@@ -133,7 +133,7 @@ span {
 .progress-bar2 .blue,
 .progress-bar3 .blue,
 .progress-bar4 .blue {
-  background-color: rgb(75, 127, 211);
+  background-color: var(--light);
   height: 12px;
   /* margin-bottom: 25px; */
 }
@@ -216,7 +216,7 @@ span {
 }
 
 .icon {
-  background-color: blue;
+  background-color: var(--light);
   color: --white;
   position: absolute;
   top: 15px;
@@ -235,8 +235,8 @@ p {
 }
 
 .experience {
-  background-color: rgb(80, 107, 206);
-  height: 250px;
+  background-color: var(--light);
+  height: 400px;
   padding: 80px;
   margin-top: 30px;
   /* width: 100%; */
@@ -272,7 +272,7 @@ p {
 
 .client {
   height: 400px;
-  background-color: rgb(18, 18, 129);
+  background-color: var(--light);
 }
 
 .client img {
@@ -306,6 +306,7 @@ p {
 
 .blog-content img {
   width: 350px;
+  height: 250px;
 }
 
 .blog-container {
@@ -316,4 +317,71 @@ p {
 .blog-content {
   /* flex-basis: 25%; */
   background-color: var(--white);
+  position: relative;
+}
+
+/* .blog-content h4 {
+  margin-top: 30px;
+} */
+
+/* .header-4 h4 {
+  margin-top: 20px;
+} */
+
+.blog-content p {
+  text-align: center;
+  color: rgb(92, 82, 82);
+}
+
+.blog-content .btn {
+  margin: auto;
+  color: var(--white);
+  background-color: var(--light);
+  padding: 7px 19px;
+  border-radius: 5px;
+  position: absolute;
+  /* bottom: 115px; */
+  top: 240px;
+  left: 120px;
+  /* margin-bottom: 10px; */
+}
+
+.header-4 {
+  margin-top: 25px;
+  padding-left: 10px;
+}
+.message-container {
+  background-color: var(--light);
+  height: 600px;
+  padding-top: 70px;
+}
+
+.box {
+  flex-basis: 50%;
+  margin: 50px;
+  align-items: center;
+  height: 400px;
+  padding: 0px 50;
+  background-color: var(--white);
+  /* width: 100%; */
+  /* pad
+  width: 80%;
+}
+*/
+}
+
+.box input[id="name"] {
+  display: block;
+  padding: 10px 105px;
+  margin: 20px;
+}
+
+.send-message {
+  width: 50%;
+  padding: 50px 20px;
+}
+
+.getintouch {
+  width: 50%;
+  padding: 0px 20px;
 }

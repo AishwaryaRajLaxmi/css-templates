@@ -1,0 +1,253 @@
+/* this link is used for using google fonts in code */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&family=Roboto:ital@0;1&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: poppins; */
+  /* font-weight: 300; */
+}
+
+/* body {
+  color: grey;
+} */
+
+:root {
+  --white: white;
+  --primary-clr: #009688;
+  --secondary-clr: rgb(90, 86, 86);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.d-flex {
+  display: flex;
+  gap: 17px;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.justify-content-center {
+  /* justify-content: center; */
+  align-items: center;
+}
+
+.about {
+  /* height: 1000px; */
+  width: 400px;
+  /* background-color: var(--white); */
+  background-color: #fff;
+  /* margin: 20px; */
+  margin: 20px 0 20px 20px;
+  box-shadow: 1px 6px 24px -5px rgba(107, 96, 107, 1);
+}
+
+.about img {
+  width: 100%;
+}
+
+.resume div {
+  padding: 10px 15px;
+  /* color: --var(white); */
+}
+
+.about i {
+  color: #009688;
+  gap: 5px;
+}
+
+.resume span {
+  color: var(--secondary-clr);
+}
+
+hr {
+  color: var(--secondary-clr);
+}
+
+.about h2,
+h3 {
+  padding: 10px 15px;
+}
+.about h2 {
+  color: rgb(59, 56, 56);
+  font-weight: 200;
+}
+
+.about h3 {
+  color: var(--secondary-clr);
+  font-weight: 100;
+}
+
+.outer1,
+.outer2,
+.outer3,
+.outer4,
+.outer5,
+.outer6,
+.outer7 {
+  height: 18px;
+  width: 90%;
+  background-color: #eff1f1;
+  border-radius: 10px;
+  margin: 5px 15px;
+}
+
+.outer1 .inner1 {
+  height: 18px;
+  width: 90%;
+  background-color: var(--primary-clr);
+  border-radius: 10px;
+}
+
+.outer2 .inner2 {
+  height: 18px;
+  width: 90%;
+  background-color: var(--primary-clr);
+  border-radius: 10px;
+}
+
+.outer3 .inner3 {
+  height: 18px;
+  width: 80%;
+  background-color: var(--primary-clr);
+  border-radius: 10px;
+}
+
+.outer3 .inner3 {
+  height: 18px;
+  width: 75%;
+  background-color: var(--primary-clr);
+  border-radius: 10px;
+}
+
+.outer4 .inner4 {
+  height: 18px;
+  width: 50%;
+  background-color: var(--primary-clr);
+  border-radius: 10px;
+}
+
+.outer5 .inner5 {
+  height: 18px;
+  width: 100%;
+  background-color: var(--primary-clr);
+  border-radius: 10px;
+}
+
+.outer6 .inner6 {
+  height: 18px;
+  width: 50%;
+  background-color: var(--primary-clr);
+  border-radius: 10px;
+}
+
+.outer7 .inner7 {
+  height: 18px;
+  width: 25%;
+  background-color: var(--primary-clr);
+  border-radius: 10px;
+}
+
+.outer7 {
+  margin-bottom: 10px;
+}
+
+.experience {
+  /* height: 1700px; */
+  background-color: --var(white);
+  margin: 20px 20px 20px 0;
+  box-shadow: 1px 6px 24px -5px rgba(107, 96, 107, 1);
+  /* padding: 20px; */
+  /* border-radius: 10px; */
+}
+
+.work div {
+  color: rgb(135, 131, 131);
+  margin: 25px 30px;
+}
+
+.i {
+  color: #009688;
+}
+.work .d-flex i {
+  font-size: 30px;
+  color: #009688;
+}
+
+.work h3 {
+  margin-top: 20px;
+}
+
+.work .icon {
+  margin: 8px 20px;
+}
+
+.work .icon i {
+  font-size: 20px;
+  color: #009688;
+}
+
+.work button {
+  color: var(--white);
+  background-color: var(--primary-clr);
+  padding: 3px 7px;
+  border: none;
+}
+
+.work p {
+  color: rgb(2, 2, 2);
+  padding: 10px 45px;
+}
+
+.education {
+  height: 600px;
+  /* background-color: red; */
+  box-shadow: 1px 6px 24px -5px rgba(107, 96, 107, 1);
+}
+.work {
+  /* background-color: yellow; */
+  box-shadow: 1px 6px 24px -5px rgba(107, 96, 107, 1);
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.education i {
+  color: var(--primary-clr);
+}
+
+.education {
+  padding: 10px 35px;
+}
+
+.education h2,
+h3,
+p {
+  color: rgb(126, 109, 109);
+  margin: 20px 0;
+}
+
+footer {
+  background-color: var(--primary-clr);
+  height: 100px;
+  text-align: center;
+  padding: 10px 15px;
+  color: white !important;
+}
+
+footer p {
+  color: white;
+}
